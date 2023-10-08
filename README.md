@@ -1,8 +1,7 @@
 # README - Projeto CRUD SPA Pet
 
 ## Participantes
- Luciana Souza Ferreira de Oliveira
- Jessica de Oliveira Alves
+ Luciana Souza Ferreira de Oliveira |  Jessica de Oliveira Alves
 
 ## Introdução
 Este é um projeto de uma API REST desenvolvido em Spring Boot para gerenciar um SPA Pet, incluindo operações CRUD (Create, Read, Update, Delete) para serviços, cliente, pet e pedidos.

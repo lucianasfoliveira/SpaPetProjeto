@@ -37,13 +37,13 @@ spring.datasource.password=password
 spring.h2.console.enabled=true
 ```
 
-#Funcionalidades
+# Funcionalidades
 
 Este projeto oferece as seguintes funcionalidades:
 Cadastro, leitura, atualização e exclusão (lógica ou física) de clientes, pets, serviços e pedidos.
 Autenticação básica de usuário usando Spring Security.
 
-#Executando o Projeto
+# Executando o Projeto
 
 Clone o repositório do projeto.
 
@@ -53,33 +53,33 @@ Execute a aplicação Spring Boot.
 
 Acesse a API através dos endpoints definidos para realizar operações CRUD e autenticação.
 
-#Endpoints da API
+# Endpoints da API
 
-##Autenticação
+## Autenticação
 POST /login: Autentica um usuário e gera um token de acesso.
 
-##Cliente
+## Cliente
 POST /customer/add: Cria um novo cliente.
 GET /customer/list: Retorna todos os clientes.
 GET /customer/{id}: Retorna um cliente específico pelo ID.
 PUT /customer/{id}: Atualiza um cliente existente pelo ID.
 DELETE /customer/{id}: Remove logicamente ou fisicamente um cliente pelo ID.
 
-##Pedido
+## Pedido
 POST /order: Cria um novo pedido.
 GET /order/list: Retorna todos os pedidos.
 GET /order/{id}: Retorna um pedido específico pelo ID.
 PUT /order/{id}: Atualiza um pedido existente pelo ID.
 DELETE /order/{id}: Remove logicamente ou fisicamente um pedido pelo ID.
 
-##Pet
+## Pet
 POST /pet/add: Cria um novo pet.
 GET /pet/list: Retorna todos os pets.
 GET /pet/{id}: Retorna um pet específico pelo ID.
 PUT /pet/{id}: Atualiza um pet existente pelo ID.
 DELETE /pet/{id}: Remove logicamente ou fisicamente um pet pelo ID.
 
-##Tipo de Serviço
+## Tipo de Serviço
 POST /types/add: Cria um novo tipo de serviço.
 GET /types/list: Retorna todos os tipos de serviços.
 GET /types/{id}: Retorna um tipo de serviço específico pelo ID.

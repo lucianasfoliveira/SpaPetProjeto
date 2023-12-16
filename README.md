@@ -60,28 +60,44 @@ POST /login: Autentica um usuário e gera um token de acesso.
 
 ## Cliente
 POST /customer/add: Cria um novo cliente.
+
 GET /customer/list: Retorna todos os clientes.
+
 GET /customer/{id}: Retorna um cliente específico pelo ID.
+
 PUT /customer/{id}: Atualiza um cliente existente pelo ID.
+
 DELETE /customer/{id}: Remove logicamente ou fisicamente um cliente pelo ID.
 
 ## Pedido
 POST /order: Cria um novo pedido.
+
 GET /order/list: Retorna todos os pedidos.
+
 GET /order/{id}: Retorna um pedido específico pelo ID.
+
 PUT /order/{id}: Atualiza um pedido existente pelo ID.
+
 DELETE /order/{id}: Remove logicamente ou fisicamente um pedido pelo ID.
 
 ## Pet
 POST /pet/add: Cria um novo pet.
+
 GET /pet/list: Retorna todos os pets.
+
 GET /pet/{id}: Retorna um pet específico pelo ID.
+
 PUT /pet/{id}: Atualiza um pet existente pelo ID.
+
 DELETE /pet/{id}: Remove logicamente ou fisicamente um pet pelo ID.
 
 ## Tipo de Serviço
 POST /types/add: Cria um novo tipo de serviço.
+
 GET /types/list: Retorna todos os tipos de serviços.
+
 GET /types/{id}: Retorna um tipo de serviço específico pelo ID.
+
 PUT /types/{id}: Atualiza um tipo de serviço existente pelo ID.
+
 DELETE /types/{id}: Remove logicamente ou fisicamente um tipo de serviço pelo ID.
